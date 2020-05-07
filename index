@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		h1 {
+			text-align: center;
+		}
+
+		@media(min-width:992px)
+		{
+			.chicken {
+				box-sizing: border-box;
+				border:10%;
+				float:left;
+				width:30%;
+				height:100px;
+				background-color: #D3D3D3;
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+
+			.chicken_head {
+				width:20%;
+				background-color: #ff9999;
+				float:right;
+				text-align: center;
+			}
+
+			.beef_head {
+				width:20%;
+				background-color: #ff3f34 ;
+				float:right;
+				text-align: center;
+			}
+
+			.sushi_head {
+				width:20%;
+				background-color: #FFD300;
+				float:right;
+				text-align: center;
+			}
+
+			.beef {
+				box-sizing: border-box;
+				border:10%;
+				float:left;
+				width:30%;
+				height:100px;
+				background-color: #D3D3D3;
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+
+			.sushi {
+				box-sizing: border-box;
+				border:10%;
+				float:left;
+				height:100px;
+				width:30%;
+				background-color: #D3D3D3;
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+		}
+
+		@media(min-width: 768px) and (max-width: 991px){
+			.chicken {
+				box-sizing: border-box;
+				float:left;
+				width:45%;
+				background-color: #D3D3D3;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: auto;
+				margin-bottom: 10px;
+				height:100px;
+			}
+
+			.beef {
+				box-sizing: border-box;
+				float:right;
+				width:45%;
+				background-color: #D3D3D3;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: auto;
+				margin-bottom: auto;
+				height:100px;
+			}
+
+			.sushi {
+				box-sizing: border-box;
+				clear:both;
+				float:left;
+				width:100%;
+				background-color: #D3D3D3;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 10px;
+				margin-bottom: auto;
+				height:100px;
+			}
+
+			.chicken_head {
+				width:20%;
+				background-color: #ff00ff;
+				float:right;
+				text-align: center;
+			}
+
+			.beef_head {
+				width:20%;
+				background-color: #00ff00;
+				float:right;
+				text-align: center;
+			}
+
+			.sushi_head {
+				width:20%;
+				background-color: #00ffff;
+				float:right;
+				text-align: center;
+			}
+
+		}
+
+		@media(max-width:767px){
+			.chicken,.sushi,.beef {
+				box-sizing: border-box;
+				border:10%;
+				clear:both;
+				width:100%;
+				background-color: #D3D3D3;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: auto;
+				margin-bottom: auto;
+				height:140px;
+			}
+
+			.chicken_head,.sushi_head,.beef_head {
+				width:20%;
+				background-color: #ff00ff;
+				float:right;
+				text-align: center;
+			}
+
+		}
+
+	</style>
+</head>
+
+<body>
+	<h1>MENU</h1>
+	
+	<section class = "chicken">
+		<div class = "chicken_head">Chicken</div>
+		<p>
+			Chicken is the most common type of poultry in the world. Owing to the relative ease and low cost of raising them in comparison to animals such as cattle or hogs.</p>
+	</section>
+
+	<section class = "beef">
+		<div class = "beef_head">Beefs</div>
+		<p>
+			Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.		</p>
+	</section>
+
+	<section class = "sushi">
+		<div class = "sushi_head">Sushi</div>
+		<p>
+			Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients.
+		</p>
+	</section>
+	
+</body>
+</html>
